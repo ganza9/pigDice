@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="js/scripts.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/styles.css">
+    <title>Pig Dice</title>
+  </head>
+  <body>
+  <div class="container">
+  <form id="diceGame">
+    <div id="die1" class="dice">0
+      <button onclick="rollDie()">Player 1 Roll!</button>
+    </div>
+    <div id="die2" class="dice">0
+      <button onclick="rollDie()">Player 2 Roll!</button>
+    </div>
+    <h2 id="result"></h2>
+      <table class="table">
+        <tr>
+          <th>Player One</th>
+          <th>Player Two</th>
+        </tr>
+        <tr>
+          <td id="resultOne"></td>
+          <td id="resultTwo"></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  </body>
+</html>
